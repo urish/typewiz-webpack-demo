@@ -8,12 +8,13 @@
   "author": "Uri Shaked",
   "private": false,
   "scripts": {
-    "start": "webpack-dev-server"
+    "start": "webpack-dev-server",
+    "apply-types": "node -e \"require('typewiz').applyTypes(require('./collected-types.json'))\""
   },
   "devDependencies": {
     "awesome-typescript-loader": "^3.4.1",
     "typescript": "^2.6.2",
-    "typewiz-webpack": "^0.1.0",
+    "typewiz-webpack": "^0.2.0",
     "webpack": "^3.10.0",
     "webpack-dev-server": "^2.11.1"
   }

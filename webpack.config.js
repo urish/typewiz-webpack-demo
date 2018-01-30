@@ -1,5 +1,5 @@
 const { CheckerPlugin } = require('awesome-typescript-loader');
-const { TypewizPlugin } = require('typewiz-webpack');
+const { TypewizPlugin, typewizCollectorMiddleware } = require('typewiz-webpack');
 
 module.exports = {
     entry: './src/main.ts',
@@ -25,6 +25,9 @@ module.exports = {
     ],
 
     devServer: {
+        before(app) {
+            typewizCollectorMiddleware(app, 'collected-types.json');
+        },
         contentBase: 'web',
     },
 };
