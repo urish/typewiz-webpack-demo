@@ -11,7 +11,7 @@ module.exports = {
     devtool: 'source-map',
 
     module: {
-        loaders: [
+        rules: [
             {
                 test: /\.tsx?$/,
                 loaders: ['awesome-typescript-loader', 'typewiz-webpack']
