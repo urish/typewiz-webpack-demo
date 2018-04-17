@@ -1,0 +1,13 @@
+{
+    "common":{
+        "tsConfig":"tsconfig.json"
+    },
+    "instrument":{
+        "instrumentCallExpressions":false,
+        "instrumentImplicitThis":false,
+        "skipTwizDeclarations":false
+    },
+    "applyTypes":{
+        "prefix":""
+    }
+}

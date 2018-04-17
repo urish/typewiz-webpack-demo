@@ -9,12 +9,13 @@
   "private": false,
   "scripts": {
     "start": "webpack-dev-server",
-    "apply-types": "node -e \"require('typewiz').applyTypes(require('./collected-types.json'))\""
+    "apply-types": "typewiz applyTypes collected-types.json"
   },
   "devDependencies": {
     "awesome-typescript-loader": "^3.5.0",
     "typescript": "^2.7.2",
-    "typewiz-webpack": "^0.3.0",
+    "typewiz-webpack": "^1.0.0-beta.2",
+    "typewiz": "^1.0.0-beta.2",
     "webpack": "^4.0.0",
     "webpack-cli": "^2.0.9",
     "webpack-dev-server": "^3.0.0"
