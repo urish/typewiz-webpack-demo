@@ -5228,28 +5228,28 @@ typescript@^2.7.2:
   version "2.7.2"
   resolved "https://registry.yarnpkg.com/typescript/-/typescript-2.7.2.tgz#2d615a1ef4aee4f574425cdff7026edf81919836"
 
-typewiz-core@^1.0.0-beta.2:
-  version "1.0.0-beta.2"
-  resolved "https://registry.yarnpkg.com/typewiz-core/-/typewiz-core-1.0.0-beta.2.tgz#29a4be9ec9cf0fc11464cf243d756578bfb1f609"
+typewiz-core@^1.0.2:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/typewiz-core/-/typewiz-core-1.0.2.tgz#a8a625b83181d89dccc5e0ab9c5b3a49989a1438"
   dependencies:
     ajv "^6.4.0"
     typescript "^2.4.2"
 
-typewiz-webpack@^1.0.0-beta.2:
-  version "1.0.0-beta.2"
-  resolved "https://registry.yarnpkg.com/typewiz-webpack/-/typewiz-webpack-1.0.0-beta.2.tgz#b571df5fab7dd988c06f3c3f45bcad51417cd1b7"
+typewiz-webpack@^1.0.0:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/typewiz-webpack/-/typewiz-webpack-1.0.2.tgz#e3da9fc3786b79d22865881dc942a9bcfd3627d2"
   dependencies:
     loader-utils "^1.1.0"
-    typewiz-core "^1.0.0-beta.2"
+    typewiz-core "^1.0.2"
     util.promisify "^1.0.0"
     webpack-sources "^1.1.0"
 
-typewiz@^1.0.0-beta.2:
-  version "1.0.0-beta.2"
-  resolved "https://registry.yarnpkg.com/typewiz/-/typewiz-1.0.0-beta.2.tgz#9a285f44c443c4ff2aa71d99170c04f1f35e8c85"
+typewiz@^1.0.0:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/typewiz/-/typewiz-1.0.3.tgz#09d5e007935d80ac42365d64a98efdbca5c49c26"
   dependencies:
     commander "^2.15.1"
-    typewiz-core "^1.0.0-beta.2"
+    typewiz-core "^1.0.2"
     update-notifier "^2.4.0"
 
 uglify-es@^3.3.4:
