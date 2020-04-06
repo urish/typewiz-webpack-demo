@@ -3,7 +3,7 @@ function calculate(a, b) {
 }
 
 function displayTypeInfo(value) {
-    document.getElementById('type-info').innerText = value;
+    document.getElementById('type-info').textContent = value;
 }
 
 function doClick() {
